@@ -282,6 +282,14 @@ body {
     font-weight: bold;
     color: #667eea;
     margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.product-price::before {
+    content: "";
+    display: inline;
 }
 
 .product-actions {
