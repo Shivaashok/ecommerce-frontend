@@ -2,87 +2,178 @@ class ECommerceApp {
     constructor() {
         this.isAdmin = false;
         this.products = [
-            {
-                id: 1,
-                name: "Sony WH-1000XM5 Headphones",
-                description: "Industry-leading noise cancelling wireless headphones with 30-hour battery life.",
-                price: 28999,
-                category: "electronics",
-                image: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&h=300&fit=crop"
-            },
-            {
-                id: 2,
-                name: "Nike Dri-FIT Training Shirt",
-                description: "Moisture-wicking performance t-shirt for athletic training and casual wear.",
-                price: 2999,
-                category: "clothing",
-                image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=300&fit=crop"
-            },
-            {
-                id: 3,
-                name: "Breville Barista Express",
-                description: "Premium espresso machine with built-in burr grinder and steam wand.",
-                price: 58999,
-                category: "home",
-                image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop"
-            },
-            {
-                id: 4,
-                name: "Adidas Ultraboost 23",
-                description: "High-performance running shoes with Boost midsole technology and Primeknit upper.",
-                price: 15999,
-                category: "sports",
-                image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop"
-            },
-            {
-                id: 5,
-                name: "Samsung Galaxy S25 Ultra",
-                description: "Latest flagship smartphone with 200MP camera, S Pen, and 5G connectivity.",
-                price: 99999,
-                category: "electronics",
-                image: "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=400&h=300&fit=crop"
-            },
-            {
-                id: 6,
-                name: "Patagonia Down Sweater",
-                description: "Lightweight down jacket with recycled materials, perfect for cold weather.",
-                price: 20999,
-                category: "clothing",
-                image: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop"
-            },
-            {
-                id: 7,
-                name: "Apple MacBook Air M3",
-                description: "Ultra-thin laptop with M3 chip, 13.6-inch Liquid Retina display, and all-day battery.",
-                price: 91999,
-                category: "electronics",
-                image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=300&fit=crop"
-            },
-            {
-                id: 8,
-                name: "Dyson V15 Detect Vacuum",
-                description: "Cordless vacuum with laser dust detection and powerful suction technology.",
-                price: 62999,
-                category: "home",
-                image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop"
-            },
-            {
-                id: 9,
-                name: "Levi's 501 Original Jeans",
-                description: "Classic straight-fit jeans made with premium denim and authentic styling.",
-                price: 7499,
-                category: "clothing",
-                image: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=300&fit=crop"
-            },
-            {
-                id: 10,
-                name: "Wilson Pro Staff Tennis Racket",
-                description: "Professional tennis racket used by top players, perfect control and precision.",
-                price: 21799,
-                category: "sports",
-                image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop"
-            }
-        ];
+    // 1. Stationery & Office Supplies
+    {
+        id: 1,
+        name: "Parker Jotter Ballpoint Pen",
+        description: "Blue Ink, Stainless Steel.",
+        price: 499,
+        category: "stationery",
+        image: "https://m.media-amazon.com/images/I/21D-y7Yh0iL._SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+        id: 2,
+        name: "Classmate Spiral Notebook",
+        description: "A4, 200 Pages.",
+        price: 199,
+        category: "stationery",
+        image: "https://via.placeholder.com/400x300?text=Classmate+Notebook"
+    },
+    {
+        id: 3,
+        name: "JK Copier A4 Sheets",
+        description: "75 GSM, 500 Sheets.",
+        price: 599,
+        category: "stationery",
+        image: "https://via.placeholder.com/400x300?text=JK+Copier+A4+Sheets"
+    },
+    {
+        id: 4,
+        name: "Stabilo Boss Highlighters",
+        description: "Pack of 4 Colors.",
+        price: 349,
+        category: "stationery",
+        image: "https://via.placeholder.com/400x300?text=Stabilo+Highlighters"
+    },
+    {
+        id: 5,
+        name: "Solo File Folders",
+        description: "A4 Size, Plastic, Pack of 10.",
+        price: 299,
+        category: "stationery",
+        image: "https://via.placeholder.com/400x300?text=Solo+File+Folders"
+    },
+
+    // 2. Electronics & Gadgets
+    {
+        id: 6,
+        name: "Apple iPhone 15 Pro",
+        description: "256GB, Titanium Black.",
+        price: 119999,
+        category: "electronics",
+        image: "https://via.placeholder.com/400x300?text=iPhone+15+Pro"
+    },
+    {
+        id: 7,
+        name: "Dell XPS 13 Laptop",
+        description: "Intel i7, 16GB RAM, 512GB SSD.",
+        price: 104999,
+        category: "electronics",
+        image: "https://via.placeholder.com/400x300?text=Dell+XPS+13"
+    },
+    {
+        id: 8,
+        name: "Sony WH-1000XM5 Headphones",
+        description: "Wireless Noise Cancelling.",
+        price: 28999,
+        category: "electronics",
+        image: "https://via.placeholder.com/400x300?text=Sony+WH-1000XM5"
+    },
+    {
+        id: 9,
+        name: "Samsung Galaxy Watch 6",
+        description: "44mm, LTE, Black.",
+        price: 24999,
+        category: "electronics",
+        image: "https://via.placeholder.com/400x300?text=Galaxy+Watch+6"
+    },
+    {
+        id: 10,
+        name: "Anker PowerCore 20,000mAh Power Bank",
+        description: "Fast Charging.",
+        price: 3999,
+        category: "electronics",
+        image: "https://via.placeholder.com/400x300?text=Anker+PowerBank"
+    },
+
+    // 3. Home & Kitchen
+    {
+        id: 11,
+        name: "Prestige Omega Deluxe Cookware Set",
+        description: "Non-Stick, 5 Pieces.",
+        price: 8999,
+        category: "home",
+        image: "https://via.placeholder.com/400x300?text=Prestige+Cookware"
+    },
+    {
+        id: 12,
+        name: "Corelle Dinner Plates",
+        description: "Set of 6, White, 10.25-inch.",
+        price: 2999,
+        category: "home",
+        image: "https://via.placeholder.com/400x300?text=Corelle+Plates"
+    },
+    {
+        id: 13,
+        name: "Tupperware Storage Containers",
+        description: "Airtight, Set of 4.",
+        price: 1999,
+        category: "home",
+        image: "https://via.placeholder.com/400x300?text=Tupperware+Set"
+    },
+    {
+        id: 14,
+        name: "Hawkins Pressure Cooker",
+        description: "5 Litres, Aluminium.",
+        price: 2999,
+        category: "home",
+        image: "https://via.placeholder.com/400x300?text=Hawkins+Cooker"
+    },
+    {
+        id: 15,
+        name: "Milton Thermosteel Water Bottle",
+        description: "1 Litre, Silver.",
+        price: 799,
+        category: "home",
+        image: "https://via.placeholder.com/400x300?text=Milton+Bottle"
+    },
+
+    // 4. Clothing & Fashion
+    {
+        id: 16,
+        name: "Levi’s Men’s T-Shirt",
+        description: "Crew Neck, Black.",
+        price: 799,
+        category: "clothing",
+        image: "https://via.placeholder.com/400x300?text=Levis+TShirt"
+    },
+    {
+        id: 17,
+        name: "Zara Women’s Floral Dress",
+        description: "Knee Length, Blue.",
+        price: 2999,
+        category: "clothing",
+        image: "https://via.placeholder.com/400x300?text=Zara+Dress"
+    },
+    {
+        id: 18,
+        name: "H&M Kids’ Cotton Hoodie",
+        description: "Grey, Age 8–10.",
+        price: 1499,
+        category: "clothing",
+        image: "https://via.placeholder.com/400x300?text=HM+Kids+Hoodie"
+    },
+    {
+        id: 19,
+        name: "Wrangler Men’s Jeans",
+        description: "Slim Fit, Blue Denim.",
+        price: 1999,
+        category: "clothing",
+        image: "https://via.placeholder.com/400x300?text=Wrangler+Jeans"
+    },
+    {
+        id: 20,
+        name: "Adidas Men’s Jacket",
+        description: "Track Jacket, Black & White.",
+        price: 3499,
+        category: "clothing",
+        image: "https://via.placeholder.com/400x300?text=Adidas+Jacket"
+    }
+
+    // You can continue the same structure for the remaining categories:
+    // Footwear, Beauty & Personal Care, Sports & Fitness, Toys & Games, Grocery & Essentials, Books & Learning
+];
+
         this.cart = [];
         this.filteredProducts = [...this.products];
         this.currentCategory = 'all';
