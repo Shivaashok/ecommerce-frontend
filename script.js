@@ -9,7 +9,7 @@ class ECommerceApp {
         description: "Blue Ink, Stainless Steel.",
         price: 499,
         category: "stationery",
-        image: "https://m.media-amazon.com/images/I/21D-y7Yh0iL._SX300_SY300_QL70_FMwebp_.jpg"
+        image: "assets/pen.jpg"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ class ECommerceApp {
         description: "A4, 200 Pages.",
         price: 199,
         category: "stationery",
-        image: "https://via.placeholder.com/400x300?text=Classmate+Notebook"
+        image: "assets/2.jpg"
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ class ECommerceApp {
         description: "75 GSM, 500 Sheets.",
         price: 599,
         category: "stationery",
-        image: "https://via.placeholder.com/400x300?text=JK+Copier+A4+Sheets"
+        image: "assets/3.jpg"
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ class ECommerceApp {
         description: "Pack of 4 Colors.",
         price: 349,
         category: "stationery",
-        image: "https://via.placeholder.com/400x300?text=Stabilo+Highlighters"
+        image: "assets/4.jpg"
     },
     {
         id: 5,
@@ -41,7 +41,7 @@ class ECommerceApp {
         description: "A4 Size, Plastic, Pack of 10.",
         price: 299,
         category: "stationery",
-        image: "https://via.placeholder.com/400x300?text=Solo+File+Folders"
+        image: "assets/5.jpg"
     },
 
     // 2. Electronics & Gadgets
@@ -51,7 +51,7 @@ class ECommerceApp {
         description: "256GB, Titanium Black.",
         price: 119999,
         category: "electronics",
-        image: "https://via.placeholder.com/400x300?text=iPhone+15+Pro"
+        image: "assets/6.jpg"
     },
     {
         id: 7,
@@ -59,7 +59,7 @@ class ECommerceApp {
         description: "Intel i7, 16GB RAM, 512GB SSD.",
         price: 104999,
         category: "electronics",
-        image: "https://via.placeholder.com/400x300?text=Dell+XPS+13"
+        image: "assets/7.jpg"
     },
     {
         id: 8,
@@ -67,7 +67,7 @@ class ECommerceApp {
         description: "Wireless Noise Cancelling.",
         price: 28999,
         category: "electronics",
-        image: "https://via.placeholder.com/400x300?text=Sony+WH-1000XM5"
+        image: "assets/8.jpg"
     },
     {
         id: 9,
@@ -75,7 +75,7 @@ class ECommerceApp {
         description: "44mm, LTE, Black.",
         price: 24999,
         category: "electronics",
-        image: "https://via.placeholder.com/400x300?text=Galaxy+Watch+6"
+        image: "assets/9.jpg"
     },
     {
         id: 10,
@@ -83,7 +83,7 @@ class ECommerceApp {
         description: "Fast Charging.",
         price: 3999,
         category: "electronics",
-        image: "https://via.placeholder.com/400x300?text=Anker+PowerBank"
+        image: "assets/10.jpg"
     },
 
     // 3. Home & Kitchen
@@ -93,7 +93,7 @@ class ECommerceApp {
         description: "Non-Stick, 5 Pieces.",
         price: 8999,
         category: "home",
-        image: "https://via.placeholder.com/400x300?text=Prestige+Cookware"
+        image: "assets/11.jpg"
     },
     {
         id: 12,
@@ -101,7 +101,7 @@ class ECommerceApp {
         description: "Set of 6, White, 10.25-inch.",
         price: 2999,
         category: "home",
-        image: "https://via.placeholder.com/400x300?text=Corelle+Plates"
+        image: "assets/12.jpg"
     },
     {
         id: 13,
@@ -109,7 +109,7 @@ class ECommerceApp {
         description: "Airtight, Set of 4.",
         price: 1999,
         category: "home",
-        image: "https://via.placeholder.com/400x300?text=Tupperware+Set"
+        image: "assets/13.jpg"
     },
     {
         id: 14,
@@ -117,7 +117,7 @@ class ECommerceApp {
         description: "5 Litres, Aluminium.",
         price: 2999,
         category: "home",
-        image: "https://via.placeholder.com/400x300?text=Hawkins+Cooker"
+        image: "assets/14.jpg"
     },
     {
         id: 15,
@@ -125,7 +125,7 @@ class ECommerceApp {
         description: "1 Litre, Silver.",
         price: 799,
         category: "home",
-        image: "https://via.placeholder.com/400x300?text=Milton+Bottle"
+        image: "assets/15.jpg"
     },
 
     // 4. Clothing & Fashion
@@ -135,7 +135,7 @@ class ECommerceApp {
         description: "Crew Neck, Black.",
         price: 799,
         category: "clothing",
-        image: "https://via.placeholder.com/400x300?text=Levis+TShirt"
+        image: "assets/16.jpg"
     },
     {
         id: 17,
@@ -143,7 +143,7 @@ class ECommerceApp {
         description: "Knee Length, Blue.",
         price: 2999,
         category: "clothing",
-        image: "https://via.placeholder.com/400x300?text=Zara+Dress"
+        image: "assets/17.jpg"
     },
     {
         id: 18,
@@ -151,7 +151,7 @@ class ECommerceApp {
         description: "Grey, Age 8–10.",
         price: 1499,
         category: "clothing",
-        image: "https://via.placeholder.com/400x300?text=HM+Kids+Hoodie"
+        image: "assets/18.jpg"
     },
     {
         id: 19,
@@ -159,7 +159,7 @@ class ECommerceApp {
         description: "Slim Fit, Blue Denim.",
         price: 1999,
         category: "clothing",
-        image: "https://via.placeholder.com/400x300?text=Wrangler+Jeans"
+        image: "assets/19.jpg"
     },
     {
         id: 20,
@@ -167,7 +167,7 @@ class ECommerceApp {
         description: "Track Jacket, Black & White.",
         price: 3499,
         category: "clothing",
-        image: "https://via.placeholder.com/400x300?text=Adidas+Jacket"
+        image: "assets/20.jpg"
     }
 
     // You can continue the same structure for the remaining categories:
